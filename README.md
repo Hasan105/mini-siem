@@ -1,16 +1,16 @@
-# 🛡️ Mini SIEM — Security Information & Event Management System
+# 🛡️ Mini SIEM - Security Information & Event Management System
 
 A lightweight, real-time Security Information and Event Management (SIEM) system
 built entirely in Python using the standard library (no pip installs required).
 
 ## Features
 
-- **Log Ingestion** — Parses SSH (`auth.log`) and system (`syslog`) log files
-- **Real-Time File Watching** — Tails log files live with inode-safe rotation detection
-- **Rule-Based Detection** — Fires alerts for 5 threat patterns automatically
-- **IP Geolocation** — Enriches attacker IPs with country/city/org data (cached in SQLite)
-- **SQLite Storage** — Persists all events, alerts, and geo lookups locally
-- **Web Dashboard** — Live browser UI with auto-refresh, alert feed, charts, and event log
+- **Log Ingestion** - Parses SSH (`auth.log`) and system (`syslog`) log files
+- **Real-Time File Watching** - Tails log files live with inode-safe rotation detection
+- **Rule-Based Detection** - Fires alerts for 5 threat patterns automatically
+- **IP Geolocation** - Enriches attacker IPs with country/city/org data (cached in SQLite)
+- **SQLite Storage** - Persists all events, alerts, and geo lookups locally
+- **Web Dashboard** - Live browser UI with auto-refresh, alert feed, charts, and event log
 
 ## Quick Start
 
